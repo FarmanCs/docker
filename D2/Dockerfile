@@ -7,11 +7,11 @@ RUN apt-get update && apt-get install -y curl \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN mkdir /home/Codes
+RUN mkdir /home/codes
 
-ENV USER Cerulean-Canvas 
+ENV USER Farman-ullah 
 ENV SHELL /bin/bash
-ENV LOGNAME Cerulean-Canvas
+ENV LOGNAME Farman-ullah
 
 CMD ["bash"]
 
